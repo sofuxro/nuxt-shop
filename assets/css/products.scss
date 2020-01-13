@@ -1,0 +1,18 @@
+@import '~vuetify/src/styles/settings/_variables';
+
+.product-list {
+    /* fix: minimum width of 0 */
+    /* https://css-tricks.com/preventing-a-grid-blowout/ */
+    /*                                      V       */
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-column-gap: 20px;
+    display: grid;
+
+    @media #{map-get($display-breakpoints, 'lg-only')} {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
