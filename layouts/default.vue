@@ -12,11 +12,19 @@
 
             <v-spacer />
 
-            <v-btn @click.stop="shoppingCart = !shoppingCart" icon>
-                <v-icon class="orange--text text--lighten-1"
-                    >mdi-shopping-outline</v-icon
-                >
-            </v-btn>
+            <v-badge
+                :content="nrOfWatches"
+                :value="nrOfWatches"
+                color="orange lighten-1"
+                overlap
+                offset-y="20px"
+            >
+                <v-btn @click.stop="shoppingCart = !shoppingCart" icon>
+                    <v-icon class="orange--text text--lighten-1"
+                        >mdi-shopping-outline</v-icon
+                    >
+                </v-btn>
+            </v-badge>
 
             <template v-slot:extension>
                 <v-spacer />
@@ -62,7 +70,15 @@ export default {
     data() {
         return {
             isPageLoaded: false,
-            shoppingCart: false
+            shoppingCart: false,
+
+            hover: false
+        }
+    },
+
+    computed: {
+        nrOfWatches() {
+            return this.$store.state.products.cart.length
         }
     },
 

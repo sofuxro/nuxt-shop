@@ -51,7 +51,9 @@
             </v-row>
         </div>
 
-        <featured />
+        <div class="container">
+            <featured />
+        </div>
 
         <div class="words-of-wisdom">
             <div class="words-of-wisdom__text text-center">

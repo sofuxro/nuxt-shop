@@ -1,5 +1,5 @@
 <template>
-    <nuxt-link :to="`products/${item.id}`" class="product-in-list">
+    <nuxt-link :to="`/products/${item.id}`" class="product-in-list">
         <v-img :src="require('~/assets/img/watches/' + item.image)"></v-img>
         <div class="product-in-list__gender">{{ gender }}</div>
         <div>{{ item.name }}</div>
@@ -47,7 +47,6 @@ export default {
 
 <style lang="scss" scoped>
 .product-in-list {
-    margin: 0 10px;
     padding: 0 0 10px;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
     transform: translateY(0);

@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <h2>Featured Products <span></span></h2>
 
         <div class="product-list">

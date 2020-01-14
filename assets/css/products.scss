@@ -5,7 +5,7 @@
     /* https://css-tricks.com/preventing-a-grid-blowout/ */
     /*                                      V       */
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
     display: grid;
 
     @media #{map-get($display-breakpoints, 'lg-only')} {
