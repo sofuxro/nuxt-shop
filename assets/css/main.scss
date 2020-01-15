@@ -28,4 +28,13 @@
     display: flex;
 }
 
+.can-blur {
+    filter: blur(0);
+    transition: filter 0.2s ease-out;
+
+    &.is-blurred {
+        filter: blur(14px);
+    }
+}
+
 @import './products.scss';

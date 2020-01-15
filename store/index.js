@@ -1,5 +1,6 @@
 export const state = () => ({
-    notificationMessage: ''
+    notificationMessage: '',
+    isMainOverlayVisible: false
 })
 
 export const mutations = {
@@ -9,5 +10,9 @@ export const mutations = {
 
     removeNotificationMessage(state) {
         state.notificationMessage = ''
+    },
+
+    modifyMainOverlay(state, isVisible = true) {
+        state.isMainOverlayVisible = isVisible
     }
 }

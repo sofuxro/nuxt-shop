@@ -1,8 +1,14 @@
 <template>
     <v-app dark>
+        <!-- <div
+            :class="[
+                'can-blur',
+                $store.state.isMainOverlayVisible ? 'is-blurred' : ''
+            ]"
+        > -->
         <app-loader v-if="isPageLoaded === false"></app-loader>
 
-        <v-app-bar absolute app flat>
+        <v-app-bar :class="isBlurred" absolute app flat>
             <v-spacer />
 
             <v-toolbar-title class="logo">
@@ -19,15 +25,21 @@
                 overlap
                 offset-y="20px"
             >
-                <v-btn @click.stop="shoppingCart = !shoppingCart" icon>
+                <v-btn @click.stop="isCartVisible = !isCartVisible" icon>
                     <v-icon class="orange--text text--lighten-1"
                         >mdi-shopping-outline</v-icon
                     >
                 </v-btn>
             </v-badge>
 
+            <!-- this.$vuetify.breakpoint.name -->
             <template v-slot:extension>
+                <v-btn @click.stop="isMenuVisible = !isMenuVisible" icon>
+                    <v-icon>mdi-menu</v-icon>
+                </v-btn>
+
                 <v-spacer />
+
                 <div class="main-menu">
                     <nuxt-link to="/"> Home</nuxt-link>
                     <nuxt-link to="/products"> All</nuxt-link>
@@ -39,46 +51,102 @@
             </template>
         </v-app-bar>
 
-        <cart v-model="shoppingCart"></cart>
+        <cart v-model="isCartVisible" :class="isBlurred"></cart>
 
-        <v-content>
+        <v-content :class="isBlurred">
             <v-container fluid class="pa-0">
                 <nuxt />
             </v-container>
         </v-content>
 
-        <app-footer />
+        <app-footer :class="isBlurred" />
 
         <notification />
+
+        <v-navigation-drawer
+            v-model="isMenuVisible"
+            temporary
+            fixed
+            width="300"
+            class="py-4"
+        >
+            <v-list nav class="pt-12">
+                <v-list-item-group>
+                    <v-list-item
+                        v-for="item in links"
+                        :key="item.route"
+                        :to="item.route"
+                        router
+                    >
+                        <v-list-item-icon
+                            ><v-icon class="white--text">{{
+                                'mdi-' + item.icon
+                            }}</v-icon></v-list-item-icon
+                        >
+                        <v-list-item-title>{{ item.text }}</v-list-item-title>
+                    </v-list-item>
+                </v-list-item-group>
+            </v-list>
+        </v-navigation-drawer>
+
+        <main-overlay />
     </v-app>
 </template>
 
 <script>
 import AppLoader from '~/components/ui/AppLoader'
+import Notification from '~/components/ui/Notification'
+import MainOverlay from '~/components/ui/MainOverlay'
 import Cart from '~/components/Cart'
 import AppFooter from '~/components/layout/Footer'
-import Notification from '~/components/ui/Notification'
 
 export default {
     components: {
         AppLoader,
         AppFooter,
         Cart,
+        MainOverlay,
         Notification
     },
 
     data() {
         return {
             isPageLoaded: false,
-            shoppingCart: false,
+            isCartVisible: false,
+            isMenuVisible: false,
 
-            hover: false
+            links: [
+                { icon: 'home', text: 'Home', route: '/' },
+                {
+                    icon: 'photo_camera',
+                    text: 'All',
+                    route: '/interests'
+                },
+                {
+                    icon: 'person',
+                    text: 'Ladies',
+                    route: '/products?gender=female'
+                },
+                {
+                    icon: 'person',
+                    text: 'Gents',
+                    route: '/products?gender=male'
+                },
+                { icon: 'person', text: 'About', route: '/about' }
+            ]
         }
     },
 
     computed: {
         nrOfWatches() {
             return this.$store.state.products.cart.length
+        },
+
+        isBlurred() {
+            return [
+                'can-blur',
+                this.$store.state.isMainOverlayVisible ? 'is-blurred' : ''
+            ]
         }
     },
 

@@ -2,8 +2,8 @@
     <div class="container watch-page">
         <div class="item">
             <v-img
-                class="item__image"
                 :src="require('~/assets/img/watches/' + product.image)"
+                class="item__image"
             ></v-img>
 
             <div class="item__content">

@@ -8,7 +8,7 @@
     },
     {
         "id": "cc3adec3-7f10-4eef-afe2-80376cfe1357",
-        "name": "Arden Stockbridge",
+        "name": "Radomir 1940",
         "price": 10000.0,
         "image": "seamaster-sp-01-190x206@2x.jpg",
         "tags": { "gender": "male" }
@@ -120,14 +120,14 @@
     },
     {
         "id": "6be78686-6769-46d7-9abc-d5fe74960292",
-        "name": "Arden Stockbridge",
+        "name": "Laminar Marina",
         "price": 10000.0,
         "image": "radomir-02-350x380.jpg",
         "tags": { "gender": "female" }
     },
     {
         "id": "f9c88546-8725-4038-bc06-fb9e27e9033b",
-        "name": "Arden Stockbridge",
+        "name": "Tag Heuer Carrera",
         "price": 10000.0,
         "image": "tag-carrer-02-350x380.jpg",
         "tags": { "gender": "female" }
