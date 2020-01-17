@@ -1,11 +1,5 @@
 <template>
     <v-app dark>
-        <!-- <div
-            :class="[
-                'can-blur',
-                $store.state.isMainOverlayVisible ? 'is-blurred' : ''
-            ]"
-        > -->
         <app-loader v-if="isPageLoaded === false"></app-loader>
 
         <v-app-bar :class="isBlurred" absolute app flat>
@@ -32,21 +26,19 @@
                 </v-btn>
             </v-badge>
 
-            <!-- this.$vuetify.breakpoint.name -->
             <template v-slot:extension>
-                <v-btn @click.stop="isMenuVisible = !isMenuVisible" icon>
+                <v-btn
+                    @click.stop="isMenuVisible = !isMenuVisible"
+                    class="main-menu-btn hidden-md-and-up"
+                    icon
+                >
                     <v-icon>mdi-menu</v-icon>
                 </v-btn>
 
                 <v-spacer />
 
-                <div class="main-menu">
-                    <nuxt-link to="/"> Home</nuxt-link>
-                    <nuxt-link to="/products"> All</nuxt-link>
-                    <nuxt-link to="/products?gender=female">Ladies</nuxt-link>
-                    <nuxt-link to="/products?gender=male">Gents</nuxt-link>
-                    <nuxt-link to="/about"> About</nuxt-link>
-                </div>
+                <main-menu />
+
                 <v-spacer />
             </template>
         </v-app-bar>
@@ -63,31 +55,7 @@
 
         <notification />
 
-        <v-navigation-drawer
-            v-model="isMenuVisible"
-            temporary
-            fixed
-            width="300"
-            class="py-4"
-        >
-            <v-list nav class="pt-12">
-                <v-list-item-group>
-                    <v-list-item
-                        v-for="item in links"
-                        :key="item.route"
-                        :to="item.route"
-                        router
-                    >
-                        <v-list-item-icon
-                            ><v-icon class="white--text">{{
-                                'mdi-' + item.icon
-                            }}</v-icon></v-list-item-icon
-                        >
-                        <v-list-item-title>{{ item.text }}</v-list-item-title>
-                    </v-list-item>
-                </v-list-item-group>
-            </v-list>
-        </v-navigation-drawer>
+        <mobile-menu v-model="isMenuVisible" />
 
         <main-overlay />
     </v-app>
@@ -99,6 +67,8 @@ import Notification from '~/components/ui/Notification'
 import MainOverlay from '~/components/ui/MainOverlay'
 import Cart from '~/components/Cart'
 import AppFooter from '~/components/layout/Footer'
+import MainMenu from '~/components/layout/MainMenu'
+import MobileMenu from '~/components/layout/MobileMenu'
 
 export default {
     components: {
@@ -106,6 +76,8 @@ export default {
         AppFooter,
         Cart,
         MainOverlay,
+        MainMenu,
+        MobileMenu,
         Notification
     },
 
@@ -113,27 +85,7 @@ export default {
         return {
             isPageLoaded: false,
             isCartVisible: false,
-            isMenuVisible: false,
-
-            links: [
-                { icon: 'home', text: 'Home', route: '/' },
-                {
-                    icon: 'photo_camera',
-                    text: 'All',
-                    route: '/interests'
-                },
-                {
-                    icon: 'person',
-                    text: 'Ladies',
-                    route: '/products?gender=female'
-                },
-                {
-                    icon: 'person',
-                    text: 'Gents',
-                    route: '/products?gender=male'
-                },
-                { icon: 'person', text: 'About', route: '/about' }
-            ]
+            isMenuVisible: false
         }
     },
 
@@ -192,41 +144,7 @@ export default {
     }
 }
 
-.main-menu {
-    a {
-        position: relative;
-        padding: 0 17px;
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: color 0.2s ease-out;
-
-        &::before,
-        &::after {
-            content: '';
-            width: 1px;
-            height: 14px;
-            background-color: rgba(255, 255, 255, 0.3);
-            position: absolute;
-            top: 6px;
-            opacity: 1;
-        }
-        &::before {
-            left: 0;
-        }
-        &::after {
-            right: 0;
-        }
-        &:hover {
-            color: $appOrange;
-            &::before {
-                opacity: 1;
-            }
-        }
-
-        &.exact-active-link {
-            color: $appOrange;
-        }
-    }
+.main-menu-btn {
+    margin-top: -108px;
 }
 </style>
