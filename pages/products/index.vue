@@ -26,7 +26,7 @@
                 </div>
 
                 <div>
-                    <h3 class="subtitle-2 pt-12 pt-sm-0  pt-xs-0">
+                    <h3 class="subtitle-2 pt-md-12 pt-xs-0">
                         FILTER BY PRICE
                     </h3>
                     <v-range-slider

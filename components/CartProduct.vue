@@ -87,7 +87,7 @@ export default {
 
     methods: {
         remove() {
-            console.log(this.$store.commit('products/remove', this.product.id))
+            this.$store.commit('products/remove', this.product.id)
         }
     }
 }

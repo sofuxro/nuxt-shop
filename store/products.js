@@ -63,6 +63,10 @@ export const mutations = {
     remove: (state, id) => {
         const index = state.cart.findIndex((el) => el.id === id)
         state.cart.splice(index, 1)
+    },
+
+    emptyCart: (state) => {
+        state.cart = []
     }
 }
 

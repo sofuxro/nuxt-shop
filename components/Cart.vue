@@ -65,7 +65,7 @@
             </v-row>
 
             <div class="text-center pa-4">
-                <v-btn color="orange lighten-1" block depressed
+                <v-btn @click="buy" color="orange lighten-1" block depressed
                     >Pretend to Buy</v-btn
                 >
             </div>
@@ -80,6 +80,7 @@
 </template>
 
 <script>
+import delay from 'lodash/fp/delay'
 import SectionLoader from '~/components/ui/SectionLoader'
 import CartProduct from '~/components/CartProduct'
 
@@ -107,6 +108,20 @@ export default {
 
         cartTotal() {
             return this.$store.getters['products/cartTotal']
+        }
+    },
+
+    methods: {
+        buy() {
+            // Show thank you message
+            this.$store.commit('modifyMainOverlay', true)
+            // Empty cart
+            this.$store.commit('products/emptyCart')
+
+            delay(3000, () => {
+                this.$store.commit('modifyMainOverlay', false)
+                this.$router.push('/')
+            })
         }
     }
 }
