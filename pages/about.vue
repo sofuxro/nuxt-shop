@@ -36,7 +36,7 @@ export default {
                 {
                     title: 'Vue.js',
                     subtitle:
-                        'The Progressive JavaScript Framework - FAST, VERSATILE and APPROCHABLE'
+                        'The Progressive JavaScript Framework - FAST, VERSATILE and APPROACHABLE'
                 },
                 {
                     title: 'Nuxt.js',
