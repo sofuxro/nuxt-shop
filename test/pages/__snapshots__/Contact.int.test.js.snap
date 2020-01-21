@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Page - extending  components/layout/Page - is fully functional 1`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        Contact
+      </h1>
+       
+      <div
+        class="description"
+      >
+        Why this dummy e-commerce store
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <h2
+      class="mt-12 mb-12 display-1"
+    >
+      
+        This is just a showcase for the latest front-end technologies:
+    
+    </h2>
+     
+    <div
+      class="v-list-item v-list-item--three-line theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__content"
+      >
+        <div
+          class="v-list-item__title title orange--text text--lighten-1"
+        >
+          Vue.js
+        </div>
+         
+        <div
+          class="v-list-item__subtitle"
+        >
+          The Progressive JavaScript Framework - FAST, VERSATILE and APPROACHABLE
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-list-item v-list-item--three-line theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__content"
+      >
+        <div
+          class="v-list-item__title title orange--text text--lighten-1"
+        >
+          Nuxt.js
+        </div>
+         
+        <div
+          class="v-list-item__subtitle"
+        >
+          A Layer on top of Vue.js - SSR and JAMStack
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-list-item v-list-item--three-line theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__content"
+      >
+        <div
+          class="v-list-item__title title orange--text text--lighten-1"
+        >
+          Vuetify.js
+        </div>
+         
+        <div
+          class="v-list-item__subtitle"
+        >
+          Vue UI Library with beautifully handcrafted Material Components
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-list-item v-list-item--three-line theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__content"
+      >
+        <div
+          class="v-list-item__title title orange--text text--lighten-1"
+        >
+          Netlify
+        </div>
+         
+        <div
+          class="v-list-item__subtitle"
+        >
+          Build, deploy and host your static site or app with a drag and drop interface and automatic delpoy
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-list-item v-list-item--three-line theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__content"
+      >
+        <div
+          class="v-list-item__title title orange--text text--lighten-1"
+        >
+          Lodash FP
+        </div>
+         
+        <div
+          class="v-list-item__subtitle"
+        >
+          A Lodash version that promotes a more functional programming (FP) friendly style by exporting methods wrapped to produce immutable auto-curried iteratee-first data-last methods. (bext explained 
+          <a
+            class="simple-link"
+            href="https://dev.to/ifarmgolems/what-is-lodash-fp-even-4ohd"
+            target="_blank"
+          >
+            here
+          </a>
+          )
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-list-item v-list-item--three-line theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__content"
+      >
+        <div
+          class="v-list-item__title title orange--text text--lighten-1"
+        >
+          Testing
+        </div>
+         
+        <div
+          class="v-list-item__subtitle"
+        >
+          Delightful JavaScript Testing
+        </div>
+      </div>
+    </div>
+     
+    <p
+      class="mt-12 subtitle-1 font-weight-thin"
+    >
+      
+        You can view the open source code on
+        
+      <a
+        class="simple-link"
+        href="#"
+      >
+        github
+      </a>
+    </p>
+  </div>
+</div>
+`;

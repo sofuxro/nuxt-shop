@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart is fully functional 1`] = `
+<nav
+  class="py-4 v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile v-navigation-drawer--right v-navigation-drawer--temporary theme--light"
+  style="height: 100vh; top: 0px; transform: translateX(100%); width: 300px;"
+>
+  <div
+    class="v-navigation-drawer__content"
+  >
+    <button
+      class="ma-n3 btn-close v-btn v-btn--absolute v-btn--depressed v-btn--fab v-btn--right v-btn--round theme--dark v-size--small grey darken-4"
+      type="button"
+    >
+      <span
+        class="v-btn__content"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate mdi mdi-close theme--dark white--text"
+        />
+      </span>
+    </button>
+     
+    <div
+      class="v-list-item theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__icon mr-3"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+        />
+      </div>
+       
+      <div
+        class="v-list-item__title headline text-uppercase"
+      >
+        
+            Shopping Cart
+        
+      </div>
+    </div>
+     
+    <hr
+      aria-orientation="horizontal"
+      class="v-divider theme--light"
+      role="separator"
+    />
+     
+    <p
+      class="title pt-12 px-5  text-center orange--text text-lighten-1"
+    >
+      
+        Your shopping bag is empty
+    
+    </p>
+     
+    <!---->
+  </div>
+  <div
+    class="v-navigation-drawer__border"
+  />
+</nav>
+`;
+
+exports[`Cart is fully functional 2`] = `
+<nav
+  class="py-4 v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile v-navigation-drawer--right v-navigation-drawer--temporary theme--light"
+  style="height: 100vh; top: 0px; transform: translateX(100%); width: 300px;"
+>
+  <div
+    class="v-navigation-drawer__content"
+  >
+    <button
+      class="ma-n3 btn-close v-btn v-btn--absolute v-btn--depressed v-btn--fab v-btn--right v-btn--round theme--dark v-size--small grey darken-4"
+      type="button"
+    >
+      <span
+        class="v-btn__content"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate mdi mdi-close theme--dark white--text"
+        />
+      </span>
+    </button>
+     
+    <div
+      class="v-list-item theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__icon mr-3"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+        />
+      </div>
+       
+      <div
+        class="v-list-item__title headline text-uppercase"
+      >
+        
+            Shopping Cart
+        
+      </div>
+    </div>
+     
+    <hr
+      aria-orientation="horizontal"
+      class="v-divider theme--light"
+      role="separator"
+    />
+     
+    <div
+      class="v-list cart-watches v-sheet v-sheet--tile theme--light"
+    >
+      <div
+        class="mb-1 pb-1 v-list-item theme--light"
+        tabindex="-1"
+      >
+        <div
+          class="v-responsive v-image mr-3"
+          style="max-width: 70px;"
+        >
+          <div
+            class="v-responsive__content"
+          />
+        </div>
+         
+        <div
+          class="v-list-item__content pa-0"
+        >
+          <div
+            class="v-list-item__title subtitle-2 text-uppercase"
+          >
+            test Name
+          </div>
+           
+          <div
+            class="v-list-item__subtitle"
+          >
+            $20.00
+          </div>
+           
+          <div
+            class="v-list-item__subtitle"
+          >
+            Qty:
+            
+            <div
+              class="vue-numeric-input"
+              data-v-4015f724=""
+              style="width: 100px;"
+            >
+              <input
+                class="numeric-input"
+                data-v-4015f724=""
+                max="10"
+                min="1"
+                style="text-align: center;"
+                type="number"
+              />
+               
+              <button
+                class="btn btn-decrement"
+                data-v-4015f724=""
+                disabled="disabled"
+                type="button"
+              >
+                <i
+                  class="btn-icon"
+                  data-v-4015f724=""
+                />
+              </button>
+               
+              <button
+                class="btn btn-increment"
+                data-v-4015f724=""
+                type="button"
+              >
+                <i
+                  class="btn-icon"
+                  data-v-4015f724=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list-item__action ma-0 mt-1"
+        >
+          <button
+            class="btn-delete v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--small grey--text text--darken-2"
+            type="button"
+          >
+            <span
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-delete theme--light"
+              />
+            </span>
+          </button>
+          <span
+            class="v-tooltip v-tooltip--top"
+          >
+            <div
+              class="v-tooltip__content"
+              style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+     
+    <hr
+      aria-orientation="horizontal"
+      class="v-divider theme--light"
+      role="separator"
+    />
+     
+    <div
+      class="row pl-5 pt2 pb-5"
+    >
+      <div
+        class="grey--text title font-weight-thin text-uppercase col col-6"
+      >
+        Total
+      </div>
+       
+      <div
+        class="headline font-weight-thin col col-6"
+      >
+        $10.00
+      </div>
+    </div>
+     
+    <div
+      class="text-center pa-4"
+    >
+      <button
+        class="btn-buy v-btn v-btn--block v-btn--depressed theme--light v-size--default orange lighten-1"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          Pretend to Buy
+        </span>
+      </button>
+    </div>
+     
+    <p
+      class="px-4 grey--text"
+    >
+      
+            * This is a Demo Online Store. No orders shall be fulfilled.
+        
+    </p>
+     
+    <!---->
+  </div>
+  <div
+    class="v-navigation-drawer__border"
+  />
+</nav>
+`;
+
+exports[`Cart is fully functional 3`] = `
+<nav
+  class="py-4 v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile v-navigation-drawer--right v-navigation-drawer--temporary theme--light"
+  data-booted="true"
+  style="height: 100vh; top: 0px; transform: translateX(100%); width: 300px;"
+>
+  <div
+    class="v-navigation-drawer__content"
+  >
+    <button
+      class="ma-n3 btn-close v-btn v-btn--absolute v-btn--depressed v-btn--fab v-btn--right v-btn--round theme--dark v-size--small grey darken-4"
+      type="button"
+    >
+      <span
+        class="v-btn__content"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate mdi mdi-close theme--dark white--text"
+        />
+      </span>
+    </button>
+     
+    <div
+      class="v-list-item theme--light"
+      tabindex="-1"
+    >
+      <div
+        class="v-list-item__icon mr-3"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+        />
+      </div>
+       
+      <div
+        class="v-list-item__title headline text-uppercase"
+      >
+        
+            Shopping Cart
+        
+      </div>
+    </div>
+     
+    <hr
+      aria-orientation="horizontal"
+      class="v-divider theme--light"
+      role="separator"
+    />
+     
+    <div
+      class="v-list cart-watches v-sheet v-sheet--tile theme--light"
+    >
+      <div
+        class="mb-1 pb-1 v-list-item theme--light"
+        tabindex="-1"
+      >
+        <div
+          class="v-responsive v-image mr-3"
+          style="max-width: 70px;"
+        >
+          <div
+            class="v-responsive__content"
+          />
+        </div>
+         
+        <div
+          class="v-list-item__content pa-0"
+        >
+          <div
+            class="v-list-item__title subtitle-2 text-uppercase"
+          >
+            test Name
+          </div>
+           
+          <div
+            class="v-list-item__subtitle"
+          >
+            $20.00
+          </div>
+           
+          <div
+            class="v-list-item__subtitle"
+          >
+            Qty:
+            
+            <div
+              class="vue-numeric-input"
+              data-v-4015f724=""
+              style="width: 100px;"
+            >
+              <input
+                class="numeric-input"
+                data-v-4015f724=""
+                max="10"
+                min="1"
+                style="text-align: center;"
+                type="number"
+              />
+               
+              <button
+                class="btn btn-decrement"
+                data-v-4015f724=""
+                type="button"
+              >
+                <i
+                  class="btn-icon"
+                  data-v-4015f724=""
+                />
+              </button>
+               
+              <button
+                class="btn btn-increment"
+                data-v-4015f724=""
+                type="button"
+              >
+                <i
+                  class="btn-icon"
+                  data-v-4015f724=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list-item__action ma-0 mt-1"
+        >
+          <button
+            class="btn-delete v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--small grey--text text--darken-2"
+            type="button"
+          >
+            <span
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-delete theme--light"
+              />
+            </span>
+          </button>
+          <span
+            class="v-tooltip v-tooltip--top"
+          >
+            <div
+              class="v-tooltip__content"
+              style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-1 pb-1 v-list-item theme--light"
+        tabindex="-1"
+      >
+        <div
+          class="v-responsive v-image mr-3"
+          style="max-width: 70px;"
+        >
+          <div
+            class="v-responsive__content"
+          />
+        </div>
+         
+        <div
+          class="v-list-item__content pa-0"
+        >
+          <div
+            class="v-list-item__title subtitle-2 text-uppercase"
+          >
+            test Name 2
+          </div>
+           
+          <div
+            class="v-list-item__subtitle"
+          >
+            $30.00
+          </div>
+           
+          <div
+            class="v-list-item__subtitle"
+          >
+            Qty:
+            
+            <div
+              class="vue-numeric-input"
+              data-v-4015f724=""
+              style="width: 100px;"
+            >
+              <input
+                class="numeric-input"
+                data-v-4015f724=""
+                max="10"
+                min="1"
+                style="text-align: center;"
+                type="number"
+              />
+               
+              <button
+                class="btn btn-decrement"
+                data-v-4015f724=""
+                disabled="disabled"
+                type="button"
+              >
+                <i
+                  class="btn-icon"
+                  data-v-4015f724=""
+                />
+              </button>
+               
+              <button
+                class="btn btn-increment"
+                data-v-4015f724=""
+                type="button"
+              >
+                <i
+                  class="btn-icon"
+                  data-v-4015f724=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list-item__action ma-0 mt-1"
+        >
+          <button
+            class="btn-delete v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--small grey--text text--darken-2"
+            type="button"
+          >
+            <span
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-delete theme--light"
+              />
+            </span>
+          </button>
+          <span
+            class="v-tooltip v-tooltip--top"
+          >
+            <div
+              class="v-tooltip__content"
+              style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+     
+    <hr
+      aria-orientation="horizontal"
+      class="v-divider theme--light"
+      role="separator"
+    />
+     
+    <div
+      class="row pl-5 pt2 pb-5"
+    >
+      <div
+        class="grey--text title font-weight-thin text-uppercase col col-6"
+      >
+        Total
+      </div>
+       
+      <div
+        class="headline font-weight-thin col col-6"
+      >
+        $10.00
+      </div>
+    </div>
+     
+    <div
+      class="text-center pa-4"
+    >
+      <button
+        class="btn-buy v-btn v-btn--block v-btn--depressed theme--light v-size--default orange lighten-1"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          Pretend to Buy
+        </span>
+      </button>
+    </div>
+     
+    <p
+      class="px-4 grey--text"
+    >
+      
+            * This is a Demo Online Store. No orders shall be fulfilled.
+        
+    </p>
+     
+    <!---->
+  </div>
+  <div
+    class="v-navigation-drawer__border"
+  />
+</nav>
+`;

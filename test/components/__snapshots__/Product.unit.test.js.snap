@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product gender showing the correct text 1`] = `
+<a
+  class="product-in-list"
+  to="/products/-1"
+>
+  <div
+    class="v-responsive v-image"
+  >
+    <div
+      class="v-responsive__content"
+    />
+  </div>
+   
+  <div
+    class="product-in-list__gender"
+  >
+    MENS WATCHES
+  </div>
+   
+  <div>
+    No Name
+  </div>
+   
+  <div
+    class="product-in-list__product_action"
+  >
+    <div
+      class="price"
+    >
+      -$1.00
+    </div>
+     
+    <button>
+      ADD TO CART
+    </button>
+  </div>
+</a>
+`;
+
+exports[`Product gender showing the correct text 2`] = `
+<a
+  class="product-in-list"
+  to="/products/-1"
+>
+  <div
+    class="v-responsive v-image"
+  >
+    <div
+      class="v-responsive__content"
+    />
+  </div>
+   
+  <div
+    class="product-in-list__gender"
+  >
+    MENS WATCHES
+  </div>
+   
+  <div>
+    No Name
+  </div>
+   
+  <div
+    class="product-in-list__product_action"
+  >
+    <div
+      class="price"
+    >
+      -$1.00
+    </div>
+     
+    <button>
+      ADD TO CART
+    </button>
+  </div>
+</a>
+`;

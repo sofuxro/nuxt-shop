@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header is fully functional 1`] = `
+<header
+  class="v-sheet v-sheet--tile theme--light v-toolbar v-toolbar--absolute v-toolbar--extended v-toolbar--flat v-app-bar"
+  style="height: 112px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"
+>
+  <div
+    class="v-toolbar__content"
+    style="height: 64px;"
+  >
+    <div
+      class="spacer"
+    />
+     
+    <div
+      class="v-toolbar__title logo"
+    >
+      <div>
+        ShoppingFor
+      </div>
+       
+      <span>
+        Watches
+      </span>
+    </div>
+     
+    <div
+      class="spacer"
+    />
+     
+    <span
+      class="v-badge v-badge--overlap theme--light"
+    >
+      <button
+        class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+          />
+        </span>
+      </button>
+      <span
+        class="v-badge__wrapper"
+      >
+        <span
+          aria-atomic="true"
+          aria-label="Badge"
+          aria-live="polite"
+          class="v-badge__badge orange lighten-1"
+          role="status"
+          style="display: none;"
+        />
+      </span>
+    </span>
+  </div>
+  <div
+    class="v-toolbar__extension"
+    style="height: 48px;"
+  >
+    <button
+      class="main-menu-btn hidden-md-and-up v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+      type="button"
+    >
+      <span
+        class="v-btn__content"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate mdi mdi-menu theme--light"
+        />
+      </span>
+    </button>
+     
+    <div
+      class="spacer"
+    />
+     
+    <div
+      class="main-menu hidden-sm-and-down"
+    >
+      <a
+        to="/"
+      >
+         Home
+      </a>
+       
+      <a
+        to="/products"
+      >
+         All
+      </a>
+       
+      <a
+        to="/products?gender=female"
+      >
+        Ladies
+      </a>
+       
+      <a
+        to="/products?gender=male"
+      >
+        Gents
+      </a>
+       
+      <a
+        to="/about"
+      >
+         About
+      </a>
+    </div>
+     
+    <div
+      class="spacer"
+    />
+  </div>
+</header>
+`;
+
+exports[`Header is fully functional 2`] = `
+<header
+  class="v-sheet v-sheet--tile theme--light v-toolbar v-toolbar--absolute v-toolbar--extended v-toolbar--flat v-app-bar"
+  style="height: 112px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"
+>
+  <div
+    class="v-toolbar__content"
+    style="height: 64px;"
+  >
+    <div
+      class="spacer"
+    />
+     
+    <div
+      class="v-toolbar__title logo"
+    >
+      <div>
+        ShoppingFor
+      </div>
+       
+      <span>
+        Watches
+      </span>
+    </div>
+     
+    <div
+      class="spacer"
+    />
+     
+    <span
+      class="v-badge v-badge--overlap theme--light"
+    >
+      <button
+        class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+          />
+        </span>
+      </button>
+      <span
+        class="v-badge__wrapper"
+      >
+        <span
+          aria-atomic="true"
+          aria-label="Badge"
+          aria-live="polite"
+          class="v-badge__badge orange lighten-1"
+          role="status"
+          style="display: none;"
+        />
+      </span>
+    </span>
+  </div>
+  <div
+    class="v-toolbar__extension"
+    style="height: 48px;"
+  >
+    <button
+      class="main-menu-btn hidden-md-and-up v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+      type="button"
+    >
+      <span
+        class="v-btn__content"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate mdi mdi-menu theme--light"
+        />
+      </span>
+    </button>
+     
+    <div
+      class="spacer"
+    />
+     
+    <div
+      class="main-menu hidden-sm-and-down"
+    >
+      <a
+        to="/"
+      >
+         Home
+      </a>
+       
+      <a
+        to="/products"
+      >
+         All
+      </a>
+       
+      <a
+        to="/products?gender=female"
+      >
+        Ladies
+      </a>
+       
+      <a
+        to="/products?gender=male"
+      >
+        Gents
+      </a>
+       
+      <a
+        to="/about"
+      >
+         About
+      </a>
+    </div>
+     
+    <div
+      class="spacer"
+    />
+  </div>
+</header>
+`;
+
+exports[`Header is fully functional 3`] = `
+<header
+  class="v-sheet v-sheet--tile theme--light v-toolbar v-toolbar--absolute v-toolbar--extended v-toolbar--flat v-app-bar"
+  style="height: 112px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"
+>
+  <div
+    class="v-toolbar__content"
+    style="height: 64px;"
+  >
+    <div
+      class="spacer"
+    />
+     
+    <div
+      class="v-toolbar__title logo"
+    >
+      <div>
+        ShoppingFor
+      </div>
+       
+      <span>
+        Watches
+      </span>
+    </div>
+     
+    <div
+      class="spacer"
+    />
+     
+    <span
+      class="v-badge v-badge--overlap theme--light"
+    >
+      <button
+        class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+          />
+        </span>
+      </button>
+      <span
+        class="v-badge__wrapper"
+      >
+        <span
+          aria-atomic="true"
+          aria-label="Badge"
+          aria-live="polite"
+          class="v-badge__badge orange lighten-1"
+          role="status"
+          style="display: none;"
+        />
+      </span>
+    </span>
+  </div>
+  <div
+    class="v-toolbar__extension"
+    style="height: 48px;"
+  >
+    <button
+      class="main-menu-btn hidden-md-and-up v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+      type="button"
+    >
+      <span
+        class="v-btn__content"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate mdi mdi-menu theme--light"
+        />
+      </span>
+    </button>
+     
+    <div
+      class="spacer"
+    />
+     
+    <div
+      class="main-menu hidden-sm-and-down"
+    >
+      <a
+        to="/"
+      >
+         Home
+      </a>
+       
+      <a
+        to="/products"
+      >
+         All
+      </a>
+       
+      <a
+        to="/products?gender=female"
+      >
+        Ladies
+      </a>
+       
+      <a
+        to="/products?gender=male"
+      >
+        Gents
+      </a>
+       
+      <a
+        to="/about"
+      >
+         About
+      </a>
+    </div>
+     
+    <div
+      class="spacer"
+    />
+  </div>
+</header>
+`;
