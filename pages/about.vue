@@ -56,8 +56,11 @@ export default {
                     title: 'Lodash FP',
                     subtitle:
                         'A Lodash version that promotes a more functional programming (FP) friendly style by exporting methods wrapped to produce immutable auto-curried iteratee-first data-last methods. (bext explained <a class="simple-link" href="https://dev.to/ifarmgolems/what-is-lodash-fp-even-4ohd" target="_blank">here</a>)'
+                },
+                {
+                    title: 'Integration and Unit testing with Jest',
+                    subtitle: 'Delightful JavaScript Testing'
                 }
-                // { title: 'Testing', subtitle: 'Delightful JavaScript Testing' }
             ]
         }
     }

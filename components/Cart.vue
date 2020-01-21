@@ -65,7 +65,12 @@
             </v-row>
 
             <div class="text-center pa-4">
-                <v-btn @click="buy" color="orange lighten-1" block depressed
+                <v-btn
+                    @click="buy"
+                    color="orange lighten-1"
+                    block
+                    depressed
+                    class="btn-buy"
                     >Pretend to Buy</v-btn
                 >
             </div>
@@ -96,7 +101,6 @@ export default {
 
     data() {
         return {
-            age: 12,
             isLoading: false
         }
     },

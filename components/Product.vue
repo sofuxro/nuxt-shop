@@ -18,9 +18,10 @@ export default {
             default() {
                 return {
                     id: -1,
-                    image: '',
+                    image: 'marina-02-350x380.jpg',
                     name: 'No Name',
-                    price: '-1.00'
+                    price: '-1.00',
+                    tags: { gender: 'male' }
                 }
             }
         }

@@ -57,10 +57,6 @@ export default {
     },
 
     computed: {
-        nrOfWatches() {
-            return this.$store.state.products.cart.length
-        },
-
         isBlurred() {
             return [
                 'can-blur',
