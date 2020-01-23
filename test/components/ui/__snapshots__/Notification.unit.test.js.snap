@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification (a.k.a. snackbar - Vuetify term) closes when the button is clicked 1`] = `<!---->`;
+
+exports[`Notification (a.k.a. snackbar - Vuetify term) closes when the button is clicked 2`] = `
+<div
+  class="v-snack orange--text text--lighten-1 v-snack--active v-snack--bottom v-snack--right v-snack-transition-enter v-snack-transition-enter-active"
+>
+  <div
+    class="v-snack__wrapper"
+  >
+    <div
+      class="v-snack__content"
+    >
+      
+    dummy message
+    
+      <button
+        class="v-btn v-btn--flat v-btn--text theme--dark v-size--default"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate mdi mdi-close theme--dark orange--text text--lighten-1"
+          />
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification (a.k.a. snackbar - Vuetify term) initially is hidden 1`] = `<!---->`;

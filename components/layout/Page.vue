@@ -14,13 +14,18 @@
 
 <script>
 let rAFID = null
-let ticking = false
 let lastScrollY = 0
 
 export default {
     props: {
         title: { type: String, default: 'This is a static page' },
         description: { type: String, default: 'This is the page description' }
+    },
+
+    data() {
+        return {
+            ticking: false
+        }
     },
 
     mounted() {
@@ -40,18 +45,16 @@ export default {
         update() {
             const bp = this.$vuetify.breakpoint.name
             const offset = bp === 'xl' || bp === 'lg' ? 150 : 50
-
-            this.$refs.header.style.backgroundPosition = `center ${lastScrollY /
-                2 -
+            this.$refs.header.style.backgroundPositionY = `${lastScrollY / 2 -
                 offset}px`
 
-            ticking = false
+            this.ticking = false
         },
 
         requestTick() {
-            if (ticking === false) {
+            if (this.ticking === false) {
                 rAFID = requestAnimationFrame(this.update)
-                ticking = false
+                this.ticking = false
             }
         }
     }

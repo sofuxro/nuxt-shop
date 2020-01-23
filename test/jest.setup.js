@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import VueTestUtils from '@vue/test-utils'
+import '@testing-library/jest-dom' // for style testing
 
 Vue.use(Vuetify)
 
