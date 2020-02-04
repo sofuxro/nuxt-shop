@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 
 export function factoryMount(
     component,
-    { store, ...options },
+    { store = {}, ...options },
     ownVuex = false
 ) {
     const localVue = createLocalVue()

@@ -4,7 +4,9 @@
 
 > My Vue, Nuxt and Netlify test ground
 
-[Live Demo](https://reverent-gates-f075ce.netlify.com/)
+## Live Demo
+
+You can find [here](https://reverent-gates-f075ce.netlify.com/) a live working version of this repository hosted on Netlify
 
 ## Build Setup
 

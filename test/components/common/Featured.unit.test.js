@@ -30,7 +30,7 @@ afterEach(() => {
     wrapper.destroy()
 })
 
-describe('Header', () => {
+describe('Featured', () => {
     test('vuetify breakpoints are working', async () => {
         // Snapshot
         expect(wrapper.element).toMatchSnapshot()

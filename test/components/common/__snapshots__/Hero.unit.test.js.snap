@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header is fully functional 1`] = `
+exports[`Hero is fully functional 1`] = `
 <div
   class="v-window v-item-group theme--dark v-window--show-arrows-on-hover v-carousel v-carousel--hide-delimiter-background"
   style="height: 700px;"

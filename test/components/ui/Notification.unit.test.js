@@ -13,7 +13,9 @@ const store = {
         addNotificationMessage(state, message) {
             state.notificationMessage = message
         },
-        removeNotificationMessage: jest.fn()
+        removeNotificationMessage: jest.fn((fn) => {
+            store.state.notificationMessage = ''
+        })
     }
 }
 

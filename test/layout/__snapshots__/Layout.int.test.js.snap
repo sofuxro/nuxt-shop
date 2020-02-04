@@ -373,3 +373,402 @@ exports[`Layout is fully functional 1`] = `
   </div>
 </div>
 `;
+
+exports[`Layout is fully functional 2`] = `
+<div
+  class="v-application v-application--is-ltr theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="v-application--wrap"
+  >
+    <!---->
+     
+    <header
+      class="v-sheet v-sheet--tile theme--light v-toolbar v-toolbar--absolute v-toolbar--extended v-toolbar--flat v-app-bar can-blur is-blurred"
+      style="height: 112px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"
+    >
+      <div
+        class="v-toolbar__content"
+        style="height: 64px;"
+      >
+        <div
+          class="spacer"
+        />
+         
+        <div
+          class="v-toolbar__title logo"
+        >
+          <div>
+            ShoppingFor
+          </div>
+           
+          <span>
+            Watches
+          </span>
+        </div>
+         
+        <div
+          class="spacer"
+        />
+         
+        <span
+          class="v-badge v-badge--overlap theme--light"
+        >
+          <button
+            class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+            type="button"
+          >
+            <span
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+              />
+            </span>
+          </button>
+          <span
+            class="v-badge__wrapper"
+          >
+            <span
+              aria-atomic="true"
+              aria-label="Badge"
+              aria-live="polite"
+              class="v-badge__badge orange lighten-1"
+              role="status"
+              style="display: none;"
+            />
+          </span>
+        </span>
+      </div>
+      <div
+        class="v-toolbar__extension"
+        style="height: 48px;"
+      >
+        <button
+          class="main-menu-btn hidden-md-and-up v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-menu theme--light"
+            />
+          </span>
+        </button>
+         
+        <div
+          class="spacer"
+        />
+         
+        <div
+          class="main-menu hidden-sm-and-down"
+        >
+          <a
+            to="/"
+          >
+             Home
+          </a>
+           
+          <a
+            to="/products"
+          >
+             All
+          </a>
+           
+          <a
+            to="/products?gender=female"
+          >
+            Ladies
+          </a>
+           
+          <a
+            to="/products?gender=male"
+          >
+            Gents
+          </a>
+           
+          <a
+            to="/about"
+          >
+             About
+          </a>
+        </div>
+         
+        <div
+          class="spacer"
+        />
+      </div>
+    </header>
+     
+    <nav
+      class="py-4 v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile v-navigation-drawer--right v-navigation-drawer--temporary theme--light can-blur is-blurred"
+      style="height: 100vh; top: 0px; transform: translateX(100%); width: 300px;"
+    >
+      <div
+        class="v-navigation-drawer__content"
+      >
+        <button
+          class="ma-n3 btn-close v-btn v-btn--absolute v-btn--depressed v-btn--fab v-btn--right v-btn--round theme--dark v-size--small grey darken-4"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-close theme--dark white--text"
+            />
+          </span>
+        </button>
+         
+        <div
+          class="v-list-item theme--light"
+          tabindex="-1"
+        >
+          <div
+            class="v-list-item__icon mr-3"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate orange--text text--lighten-1 mdi mdi-shopping-outline theme--light"
+            />
+          </div>
+           
+          <div
+            class="v-list-item__title headline text-uppercase"
+          >
+            
+            Shopping Cart
+        
+          </div>
+        </div>
+         
+        <hr
+          aria-orientation="horizontal"
+          class="v-divider theme--light"
+          role="separator"
+        />
+         
+        <p
+          class="title pt-12 px-5  text-center orange--text text-lighten-1"
+        >
+          
+        Your shopping bag is empty
+    
+        </p>
+         
+        <!---->
+      </div>
+      <div
+        class="v-navigation-drawer__border"
+      />
+    </nav>
+     
+    <main
+      class="v-content can-blur is-blurred"
+      style="padding: 112px 0px 0px 0px;"
+    >
+      <div
+        class="v-content__wrap"
+      >
+        <div
+          class="container pa-0 container--fluid"
+        >
+          <div />
+        </div>
+      </div>
+    </main>
+     
+    <footer
+      class="can-blur is-blurred"
+    >
+      <nav>
+        <div
+          class="container"
+        >
+          <div
+            class="row"
+          >
+            <a
+              to="/faqs"
+            >
+              FAQS
+            </a>
+             
+            <a
+              to="/about"
+            >
+              About
+            </a>
+             
+            <a
+              to="/contact"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+       
+      <div
+        class="footer__credentials"
+      >
+        
+        This project is open source on
+        
+        <a
+          class="simple-link"
+          href="#"
+        >
+          github
+        </a>
+        , hosted with Netlify, and
+        made Made with passion in
+        
+        <i
+          class="footer__country"
+          deluminate_imagetype="png"
+          title="România"
+        />
+        
+        by
+        
+        <a
+          class="simple-link"
+          href="http://claudiu.limban.ro/"
+          title="Front-end Developer"
+        >
+          Claudiu Limban
+        </a>
+      </div>
+    </footer>
+     
+    <!---->
+     
+    <aside
+      class="mobile-menu py-12 v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile v-navigation-drawer--temporary theme--light"
+      style="height: 100%; top: 0px; transform: translateX(-100%); width: 300px;"
+    >
+      <div
+        class="v-navigation-drawer__content"
+      >
+        <a
+          to="/"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate is-big white--text mdi mdi-home theme--light"
+          />
+           
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate white--text mdi mdi-home theme--light"
+          />
+          
+        Home
+    
+        </a>
+        <a
+          to="/products"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate is-big white--text mdi mdi-watch theme--light"
+          />
+           
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate white--text mdi mdi-watch theme--light"
+          />
+          
+        All
+    
+        </a>
+        <a
+          to="/products?gender=female"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate is-big white--text mdi mdi-gender-female theme--light"
+          />
+           
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate white--text mdi mdi-gender-female theme--light"
+          />
+          
+        Ladies
+    
+        </a>
+        <a
+          to="/products?gender=male"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate is-big white--text mdi mdi-gender-male theme--light"
+          />
+           
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate white--text mdi mdi-gender-male theme--light"
+          />
+          
+        Gents
+    
+        </a>
+        <a
+          to="/about"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate is-big white--text mdi mdi-information-outline theme--light"
+          />
+           
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate white--text mdi mdi-information-outline theme--light"
+          />
+          
+        About
+    
+        </a>
+      </div>
+      <div
+        class="v-navigation-drawer__border"
+      />
+    </aside>
+     
+    <div
+      class="main-overlay fade-enter fade-enter-active"
+    >
+      <div
+        class="thank-you display-1 font-weight-thin text-center"
+      >
+        <span
+          class="orange--text text--lighten-1"
+        >
+          Thank you
+        </span>
+         for
+            buying from us. 
+        <br />
+        The watches will 
+        <b>
+          NOT
+        </b>
+         be sent as
+            this is just a
+            
+        <b>
+          Demo Online Store
+        </b>
+      </div>
+    </div>
+  </div>
+</div>
+`;

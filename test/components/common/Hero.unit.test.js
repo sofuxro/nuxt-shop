@@ -13,7 +13,7 @@ afterEach(() => {
     wrapper.destroy()
 })
 
-describe('Header', () => {
+describe('Hero', () => {
     test('is fully functional', async () => {
         // Mock data
         wrapper.setData({
