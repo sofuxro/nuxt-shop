@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index (homepage) is fully functional 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="v-window v-item-group theme--dark v-window--show-arrows-on-hover v-carousel v-carousel--hide-delimiter-background"
+    style="height: 700px;"
+  >
+    <div
+      class="v-window__container"
+    >
+      <div
+        class="v-window-item container"
+      >
+        <div
+          class="v-responsive v-image v-carousel__item"
+          style="height: 700px;"
+        >
+          <div
+            class="v-responsive__content"
+          >
+            <div
+              class="v-responsive v-image"
+              style="max-height: 100%;"
+            >
+              <div
+                class="v-responsive__content"
+              >
+                <div
+                  class="v-sheet theme--dark transparent"
+                  style="height: 100%;"
+                >
+                  <div
+                    class="row fill-height align-center justify-center"
+                  >
+                    <div
+                      class="pa-7"
+                    >
+                      <div
+                        class="display-2 pb-4 text-center"
+                      >
+                        
+                            Speedmaster Chronograph
+                        
+                      </div>
+                       
+                      <div
+                        class="grey--text text--lighten-1"
+                      >
+                        
+                            Lorem ipsum dolor amet aesthetic gentrify vaporware hot chicken kickstarter pickled tattooed. Banh mi bicycle rights meggings tumblr unicorn post-ironic glossier authentic, cardigan retro synth disrupt chillwave. Raclette sartorial jianbing, echo park hashtag fanny pack slow-carb. Typewriter +1 tilde hashtag viral, DIY brooklyn.
+                            
+                        <b>
+                          This is a Demo Online Store. No orders
+                                shall be fulfilled.
+                        </b>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-window-item container"
+        style="display: none;"
+      />
+      <div
+        class="v-window-item container"
+        style="display: none;"
+      />
+      <div
+        class="v-window-item container"
+        style="display: none;"
+      />
+      <div
+        class="v-window__prev"
+      >
+        <button
+          aria-label="Previous visual"
+          class="v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--default"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-left theme--dark"
+              style="font-size: 36px;"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="v-window__next"
+      >
+        <button
+          aria-label="Next visual"
+          class="v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--default"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-right theme--dark"
+              style="font-size: 36px;"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-carousel__controls"
+    >
+      <div
+        class="v-item-group theme--dark"
+      >
+        <button
+          aria-label="Carousel slide 1 of 4"
+          class="v-carousel__controls__item v-btn v-item--active v-btn--active v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+          value="0"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-circle theme--dark"
+              style="font-size: 18px;"
+            />
+          </span>
+        </button>
+        <button
+          aria-label="Carousel slide 2 of 4"
+          class="v-carousel__controls__item v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+          value="1"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-circle theme--dark"
+              style="font-size: 18px;"
+            />
+          </span>
+        </button>
+        <button
+          aria-label="Carousel slide 3 of 4"
+          class="v-carousel__controls__item v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+          value="2"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-circle theme--dark"
+              style="font-size: 18px;"
+            />
+          </span>
+        </button>
+        <button
+          aria-label="Carousel slide 4 of 4"
+          class="v-carousel__controls__item v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+          value="3"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-circle theme--dark"
+              style="font-size: 18px;"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="container"
+  >
+    <div
+      class="row pt-6 justify-space-around"
+    >
+      <div
+        class="col-md-3 col-4"
+      >
+        <div
+          class="mx-auto pa-4 v-card v-sheet theme--light"
+          style="height: 100%; max-width: 300px;"
+        >
+          <div
+            aria-label="24/7 CUSTOMER SERVICE"
+            class="v-responsive v-image mx-auto"
+            role="img"
+            style="max-width: 100px;"
+          >
+            <div
+              class="v-responsive__content"
+            />
+          </div>
+           
+          <div
+            class="text-center pt-4"
+          >
+            
+                        24/7 CUSTOMER SERVICE
+                    
+          </div>
+           
+          <p
+            class="text-center grey--text"
+          >
+            Call us any time
+          </p>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-3 col-4"
+      >
+        <div
+          class="mx-auto pa-4 v-card v-sheet theme--light"
+          style="height: 100%; max-width: 300px;"
+        >
+          <div
+            aria-label="EASY ONLINE RETURNS"
+            class="v-responsive v-image mx-auto"
+            role="img"
+            style="max-width: 100px;"
+          >
+            <div
+              class="v-responsive__content"
+            />
+          </div>
+           
+          <div
+            class="text-center pt-4"
+          >
+            EASY ONLINE RETURNS
+          </div>
+           
+          <p
+            class="text-center grey--text"
+          >
+            
+                        Send Within 30 Days
+                    
+          </p>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-3 col-4"
+      >
+        <div
+          class="mx-auto pa-4 v-card v-sheet theme--light"
+          style="height: 100%; max-width: 300px;"
+        >
+          <div
+            aria-label="FREE SHIPPING GLOBALLY"
+            class="v-responsive v-image mx-auto"
+            role="img"
+            style="max-width: 100px;"
+          >
+            <div
+              class="v-responsive__content"
+            />
+          </div>
+           
+          <div
+            class="text-center pt-4"
+          >
+            
+                        FREE SHIPPING GLOBALLY
+                    
+          </div>
+           
+          <p
+            class="text-center grey--text"
+          >
+            
+                        Delivery in 3-6 Days
+                    
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="container"
+  >
+    <div>
+      <h2>
+        Featured Products 
+        <span />
+      </h2>
+       
+      <div
+        class="product-list"
+      />
+    </div>
+  </div>
+   
+  <div
+    class="words-of-wisdom"
+  >
+    <div
+      class="words-of-wisdom__text text-center"
+    >
+      
+            "The surprising styles of watches are advanced for all seasons."
+            
+      <span>
+        Oscar Jackson
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,10 +1,16 @@
-# shop
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+
+# Shop for Watches
 
 > My Vue, Nuxt and Netlify test ground
 
+## Live Demo
+
+You can find [here](https://reverent-gates-f075ce.netlify.com/) a live working version of this repository hosted on Netlify
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm run install
 

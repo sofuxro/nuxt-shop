@@ -149,7 +149,7 @@ exports[`Contact Page - extending  components/layout/Page - is fully functional 
         <div
           class="v-list-item__title title orange--text text--lighten-1"
         >
-          Testing
+          Integration and Unit testing with Jest
         </div>
          
         <div

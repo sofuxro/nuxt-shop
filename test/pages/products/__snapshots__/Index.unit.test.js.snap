@@ -1,0 +1,4763 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products List gender selection is working 1`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        Shop with confidence
+      </h1>
+       
+      <div
+        class="description"
+      >
+        The place to be when you want to excel in Life
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <div
+      class="container has-filters"
+    >
+      <aside>
+        <div>
+          <h3
+            class="subtitle-2"
+          >
+            PRODUCT CATEGORIES
+          </h3>
+           
+          <div>
+            <div
+              class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--checkbox orange--text text--lighten-1"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="true"
+                      id="input-66"
+                      role="checkbox"
+                      type="checkbox"
+                      value="male"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple orange--text text--lighten-1"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-marked theme--light orange--text text--lighten-1"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-66"
+                    style="left: 0px; position: relative;"
+                  >
+                    Gents
+                  </label>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="v-input v-input--hide-details theme--light v-input--selection-controls v-input--checkbox"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="false"
+                      id="input-68"
+                      role="checkbox"
+                      type="checkbox"
+                      value="female"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-blank-outline theme--light"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-68"
+                    style="left: 0px; position: relative;"
+                  >
+                    Ladies
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div>
+          <h3
+            class="subtitle-2 pt-md-12 pt-xs-0"
+          >
+            
+                    FILTER BY PRICE
+                
+          </h3>
+           
+          <div
+            class="v-input align-center v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input__slider v-input--range-slider"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-slider v-slider--horizontal theme--light"
+                >
+                  <input
+                    id="input-70"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="5"
+                  />
+                  <input
+                    id="input-70"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="10000"
+                  />
+                  <div
+                    class="v-slider__track-container"
+                  >
+                    <div
+                      class="v-slider__track-background primary lighten-3"
+                    />
+                    <div
+                      class="v-slider__track-fill orange lighten-1"
+                      style="left: 0%; width: 100%;"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 0%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 100%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <p>
+            
+                    Price: $5 -
+                    $10,000
+                
+          </p>
+        </div>
+      </aside>
+       
+      <div>
+        <p>
+          
+                Showing all 16 results
+            
+        </p>
+         
+        <section
+          class="product-list"
+        >
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/7e3623a7-7bf8-4855-9819-f4d82af9e1c5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Desi Avramovitz
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.40
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/cc3adec3-7f10-4eef-afe2-80376cfe1357"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Radomir 1940
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/544ac97b-419a-472a-8edc-f42a55324da0"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Addy Alldre
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,300.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/885e1249-c45d-4c49-baa6-6434a291d4d2"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Gwendolen Bickerstaffe
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,400.50
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6df0a393-2d01-4024-a46d-1d06b200458a"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cristian Gilbanks
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/3223686e-a223-472d-8dd1-6b944aadc222"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Kalila Gooms
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $1,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/70e337e6-811a-45b3-8515-ef4f5c21869f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Armin Basilio
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $2,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/9dcd7387-4162-4a2c-b2cd-67bd3a3e5a2f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/421900ad-ecb7-4a0b-b80c-3ccc877a0dca"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cal Sterman
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/ec97cff1-ac0a-487c-ab0d-ffb240fc9128"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Ardine Imlaw
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,500.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6488a504-5825-4a46-b6d5-546254d56ce5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Noella Ruddom
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $7,200.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/ce06bf75-3c50-4082-bb18-4a11f4b816fc"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/57b1c56c-d1be-44b6-857d-4dec059d3fde"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Kirstyn Espadate
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/daef0fa6-7fde-49f3-9788-a3fb2f328960"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Rourke Greet
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $4,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6be78686-6769-46d7-9abc-d5fe74960292"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Laminar Marina
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/f9c88546-8725-4038-bc06-fb9e27e9033b"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Tag Heuer Carrera
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Products List gender selection is working 2`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        Shop with confidence
+      </h1>
+       
+      <div
+        class="description"
+      >
+        The place to be when you want to excel in Life
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <div
+      class="container has-filters"
+    >
+      <aside>
+        <div>
+          <h3
+            class="subtitle-2"
+          >
+            PRODUCT CATEGORIES
+          </h3>
+           
+          <div>
+            <div
+              class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--checkbox orange--text text--lighten-1"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="true"
+                      id="input-66"
+                      role="checkbox"
+                      type="checkbox"
+                      value="male"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple orange--text text--lighten-1"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-marked theme--light orange--text text--lighten-1"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-66"
+                    style="left: 0px; position: relative;"
+                  >
+                    Gents
+                  </label>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--checkbox orange--text text--lighten-1"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="true"
+                      id="input-68"
+                      role="checkbox"
+                      type="checkbox"
+                      value="female"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple orange--text text--lighten-1"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-marked theme--light orange--text text--lighten-1"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-68"
+                    style="left: 0px; position: relative;"
+                  >
+                    Ladies
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div>
+          <h3
+            class="subtitle-2 pt-md-12 pt-xs-0"
+          >
+            
+                    FILTER BY PRICE
+                
+          </h3>
+           
+          <div
+            class="v-input align-center v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input__slider v-input--range-slider"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-slider v-slider--horizontal theme--light"
+                >
+                  <input
+                    id="input-70"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="5"
+                  />
+                  <input
+                    id="input-70"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="10000"
+                  />
+                  <div
+                    class="v-slider__track-container"
+                  >
+                    <div
+                      class="v-slider__track-background primary lighten-3"
+                    />
+                    <div
+                      class="v-slider__track-fill orange lighten-1"
+                      style="left: 0%; width: 100%;"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 0%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 100%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <p>
+            
+                    Price: $5 -
+                    $10,000
+                
+          </p>
+        </div>
+      </aside>
+       
+      <div>
+        <p>
+          
+                Showing all 16 results
+            
+        </p>
+         
+        <section
+          class="product-list"
+        >
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/7e3623a7-7bf8-4855-9819-f4d82af9e1c5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Desi Avramovitz
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.40
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/cc3adec3-7f10-4eef-afe2-80376cfe1357"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Radomir 1940
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/544ac97b-419a-472a-8edc-f42a55324da0"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Addy Alldre
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,300.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/885e1249-c45d-4c49-baa6-6434a291d4d2"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Gwendolen Bickerstaffe
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,400.50
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6df0a393-2d01-4024-a46d-1d06b200458a"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cristian Gilbanks
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/3223686e-a223-472d-8dd1-6b944aadc222"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Kalila Gooms
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $1,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/70e337e6-811a-45b3-8515-ef4f5c21869f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Armin Basilio
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $2,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/9dcd7387-4162-4a2c-b2cd-67bd3a3e5a2f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/421900ad-ecb7-4a0b-b80c-3ccc877a0dca"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cal Sterman
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/ec97cff1-ac0a-487c-ab0d-ffb240fc9128"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Ardine Imlaw
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,500.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6488a504-5825-4a46-b6d5-546254d56ce5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Noella Ruddom
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $7,200.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/ce06bf75-3c50-4082-bb18-4a11f4b816fc"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/57b1c56c-d1be-44b6-857d-4dec059d3fde"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Kirstyn Espadate
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/daef0fa6-7fde-49f3-9788-a3fb2f328960"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Rourke Greet
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $4,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6be78686-6769-46d7-9abc-d5fe74960292"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Laminar Marina
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/f9c88546-8725-4038-bc06-fb9e27e9033b"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Tag Heuer Carrera
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Products List gender selection is working 3`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        Shop with confidence
+      </h1>
+       
+      <div
+        class="description"
+      >
+        The place to be when you want to excel in Life
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <div
+      class="container has-filters"
+    >
+      <aside>
+        <div>
+          <h3
+            class="subtitle-2"
+          >
+            PRODUCT CATEGORIES
+          </h3>
+           
+          <div>
+            <div
+              class="v-input v-input--hide-details theme--light v-input--selection-controls v-input--checkbox"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="false"
+                      id="input-66"
+                      role="checkbox"
+                      type="checkbox"
+                      value="male"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-blank-outline theme--light"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-66"
+                    style="left: 0px; position: relative;"
+                  >
+                    Gents
+                  </label>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--checkbox orange--text text--lighten-1"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="true"
+                      id="input-68"
+                      role="checkbox"
+                      type="checkbox"
+                      value="female"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple orange--text text--lighten-1"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-marked theme--light orange--text text--lighten-1"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-68"
+                    style="left: 0px; position: relative;"
+                  >
+                    Ladies
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div>
+          <h3
+            class="subtitle-2 pt-md-12 pt-xs-0"
+          >
+            
+                    FILTER BY PRICE
+                
+          </h3>
+           
+          <div
+            class="v-input align-center v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input__slider v-input--range-slider"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-slider v-slider--horizontal theme--light"
+                >
+                  <input
+                    id="input-70"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="5"
+                  />
+                  <input
+                    id="input-70"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="10000"
+                  />
+                  <div
+                    class="v-slider__track-container"
+                  >
+                    <div
+                      class="v-slider__track-background primary lighten-3"
+                    />
+                    <div
+                      class="v-slider__track-fill orange lighten-1"
+                      style="left: 0%; width: 100%;"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 0%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 100%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <p>
+            
+                    Price: $5 -
+                    $10,000
+                
+          </p>
+        </div>
+      </aside>
+       
+      <div>
+        <p>
+          
+                Showing all 6 results
+            
+        </p>
+         
+        <section
+          class="product-list"
+        >
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/7e3623a7-7bf8-4855-9819-f4d82af9e1c5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Desi Avramovitz
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.40
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/cc3adec3-7f10-4eef-afe2-80376cfe1357"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Radomir 1940
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/544ac97b-419a-472a-8edc-f42a55324da0"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Addy Alldre
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,300.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/885e1249-c45d-4c49-baa6-6434a291d4d2"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Gwendolen Bickerstaffe
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,400.50
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/6df0a393-2d01-4024-a46d-1d06b200458a"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cristian Gilbanks
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/3223686e-a223-472d-8dd1-6b944aadc222"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Kalila Gooms
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $1,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/70e337e6-811a-45b3-8515-ef4f5c21869f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Armin Basilio
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $2,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/9dcd7387-4162-4a2c-b2cd-67bd3a3e5a2f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/421900ad-ecb7-4a0b-b80c-3ccc877a0dca"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cal Sterman
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/ec97cff1-ac0a-487c-ab0d-ffb240fc9128"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Ardine Imlaw
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,500.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/6488a504-5825-4a46-b6d5-546254d56ce5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Noella Ruddom
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $7,200.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/ce06bf75-3c50-4082-bb18-4a11f4b816fc"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/57b1c56c-d1be-44b6-857d-4dec059d3fde"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Kirstyn Espadate
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/daef0fa6-7fde-49f3-9788-a3fb2f328960"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Rourke Greet
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $4,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/6be78686-6769-46d7-9abc-d5fe74960292"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Laminar Marina
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/f9c88546-8725-4038-bc06-fb9e27e9033b"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Tag Heuer Carrera
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Products List looks good 1`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        Shop with confidence
+      </h1>
+       
+      <div
+        class="description"
+      >
+        The place to be when you want to excel in Life
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <div
+      class="container has-filters"
+    >
+      <aside>
+        <div>
+          <h3
+            class="subtitle-2"
+          >
+            PRODUCT CATEGORIES
+          </h3>
+           
+          <div>
+            <div
+              class="v-input v-input--hide-details theme--light v-input--selection-controls v-input--checkbox"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="false"
+                      id="input-6"
+                      role="checkbox"
+                      type="checkbox"
+                      value="male"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-blank-outline theme--light"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-6"
+                    style="left: 0px; position: relative;"
+                  >
+                    Gents
+                  </label>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="v-input v-input--hide-details theme--light v-input--selection-controls v-input--checkbox"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="false"
+                      id="input-8"
+                      role="checkbox"
+                      type="checkbox"
+                      value="female"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-blank-outline theme--light"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-8"
+                    style="left: 0px; position: relative;"
+                  >
+                    Ladies
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div>
+          <h3
+            class="subtitle-2 pt-md-12 pt-xs-0"
+          >
+            
+                    FILTER BY PRICE
+                
+          </h3>
+           
+          <div
+            class="v-input align-center v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input__slider v-input--range-slider"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-slider v-slider--horizontal theme--light"
+                >
+                  <input
+                    id="input-10"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="5"
+                  />
+                  <input
+                    id="input-10"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="10000"
+                  />
+                  <div
+                    class="v-slider__track-container"
+                  >
+                    <div
+                      class="v-slider__track-background primary lighten-3"
+                    />
+                    <div
+                      class="v-slider__track-fill orange lighten-1"
+                      style="left: 0%; width: 100%;"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 0%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 100%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <p>
+            
+                    Price: $5 -
+                    $10,000
+                
+          </p>
+        </div>
+      </aside>
+       
+      <div>
+        <p>
+          
+                Showing all 16 results
+            
+        </p>
+         
+        <section
+          class="product-list"
+        >
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/7e3623a7-7bf8-4855-9819-f4d82af9e1c5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Desi Avramovitz
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.40
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/cc3adec3-7f10-4eef-afe2-80376cfe1357"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Radomir 1940
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/544ac97b-419a-472a-8edc-f42a55324da0"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Addy Alldre
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,300.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/885e1249-c45d-4c49-baa6-6434a291d4d2"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Gwendolen Bickerstaffe
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,400.50
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6df0a393-2d01-4024-a46d-1d06b200458a"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cristian Gilbanks
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/3223686e-a223-472d-8dd1-6b944aadc222"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Kalila Gooms
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $1,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/70e337e6-811a-45b3-8515-ef4f5c21869f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Armin Basilio
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $2,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/9dcd7387-4162-4a2c-b2cd-67bd3a3e5a2f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/421900ad-ecb7-4a0b-b80c-3ccc877a0dca"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cal Sterman
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/ec97cff1-ac0a-487c-ab0d-ffb240fc9128"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Ardine Imlaw
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,500.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6488a504-5825-4a46-b6d5-546254d56ce5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Noella Ruddom
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $7,200.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/ce06bf75-3c50-4082-bb18-4a11f4b816fc"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/57b1c56c-d1be-44b6-857d-4dec059d3fde"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Kirstyn Espadate
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/daef0fa6-7fde-49f3-9788-a3fb2f328960"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Rourke Greet
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $4,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6be78686-6769-46d7-9abc-d5fe74960292"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Laminar Marina
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/f9c88546-8725-4038-bc06-fb9e27e9033b"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Tag Heuer Carrera
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Products List price range is working 1`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        Shop with confidence
+      </h1>
+       
+      <div
+        class="description"
+      >
+        The place to be when you want to excel in Life
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <div
+      class="container has-filters"
+    >
+      <aside>
+        <div>
+          <h3
+            class="subtitle-2"
+          >
+            PRODUCT CATEGORIES
+          </h3>
+           
+          <div>
+            <div
+              class="v-input v-input--hide-details theme--light v-input--selection-controls v-input--checkbox"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="false"
+                      id="input-126"
+                      role="checkbox"
+                      type="checkbox"
+                      value="male"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-blank-outline theme--light"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-126"
+                    style="left: 0px; position: relative;"
+                  >
+                    Gents
+                  </label>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="v-input v-input--hide-details theme--light v-input--selection-controls v-input--checkbox"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="false"
+                      id="input-128"
+                      role="checkbox"
+                      type="checkbox"
+                      value="female"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-blank-outline theme--light"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-128"
+                    style="left: 0px; position: relative;"
+                  >
+                    Ladies
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div>
+          <h3
+            class="subtitle-2 pt-md-12 pt-xs-0"
+          >
+            
+                    FILTER BY PRICE
+                
+          </h3>
+           
+          <div
+            class="v-input align-center v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input__slider v-input--range-slider"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-slider v-slider--horizontal theme--light"
+                >
+                  <input
+                    id="input-130"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="5"
+                  />
+                  <input
+                    id="input-130"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="1005"
+                  />
+                  <div
+                    class="v-slider__track-container"
+                  >
+                    <div
+                      class="v-slider__track-background primary lighten-3"
+                    />
+                    <div
+                      class="v-slider__track-fill orange lighten-1"
+                      style="left: 0%; width: 10.005002501250624%;"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,1005"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 0%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,1005"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 10.005002501250624%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <p>
+            
+                    Price: $5 -
+                    $1,005
+                
+          </p>
+        </div>
+      </aside>
+       
+      <div>
+        <p>
+          There are no results for these filters
+        </p>
+         
+        <section
+          class="product-list"
+        >
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/7e3623a7-7bf8-4855-9819-f4d82af9e1c5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Desi Avramovitz
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.40
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/cc3adec3-7f10-4eef-afe2-80376cfe1357"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Radomir 1940
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/544ac97b-419a-472a-8edc-f42a55324da0"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Addy Alldre
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,300.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/885e1249-c45d-4c49-baa6-6434a291d4d2"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Gwendolen Bickerstaffe
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,400.50
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/6df0a393-2d01-4024-a46d-1d06b200458a"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cristian Gilbanks
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/3223686e-a223-472d-8dd1-6b944aadc222"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Kalila Gooms
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $1,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/70e337e6-811a-45b3-8515-ef4f5c21869f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Armin Basilio
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $2,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/9dcd7387-4162-4a2c-b2cd-67bd3a3e5a2f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/421900ad-ecb7-4a0b-b80c-3ccc877a0dca"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cal Sterman
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/ec97cff1-ac0a-487c-ab0d-ffb240fc9128"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Ardine Imlaw
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,500.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/6488a504-5825-4a46-b6d5-546254d56ce5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Noella Ruddom
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $7,200.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/ce06bf75-3c50-4082-bb18-4a11f4b816fc"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/57b1c56c-d1be-44b6-857d-4dec059d3fde"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Kirstyn Espadate
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/daef0fa6-7fde-49f3-9788-a3fb2f328960"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Rourke Greet
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $4,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/6be78686-6769-46d7-9abc-d5fe74960292"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Laminar Marina
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-leave product-list-leave-active"
+            to="/products/f9c88546-8725-4038-bc06-fb9e27e9033b"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Tag Heuer Carrera
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Products List route query is working 1`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        Shop with confidence
+      </h1>
+       
+      <div
+        class="description"
+      >
+        The place to be when you want to excel in Life
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <div
+      class="container has-filters"
+    >
+      <aside>
+        <div>
+          <h3
+            class="subtitle-2"
+          >
+            PRODUCT CATEGORIES
+          </h3>
+           
+          <div>
+            <div
+              class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--checkbox orange--text text--lighten-1"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="true"
+                      id="input-186"
+                      role="checkbox"
+                      type="checkbox"
+                      value="male"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple orange--text text--lighten-1"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-marked theme--light orange--text text--lighten-1"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-186"
+                    style="left: 0px; position: relative;"
+                  >
+                    Gents
+                  </label>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--checkbox orange--text text--lighten-1"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <input
+                      aria-checked="true"
+                      id="input-188"
+                      role="checkbox"
+                      type="checkbox"
+                      value="female"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple orange--text text--lighten-1"
+                    />
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-checkbox-marked theme--light orange--text text--lighten-1"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    for="input-188"
+                    style="left: 0px; position: relative;"
+                  >
+                    Ladies
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div>
+          <h3
+            class="subtitle-2 pt-md-12 pt-xs-0"
+          >
+            
+                    FILTER BY PRICE
+                
+          </h3>
+           
+          <div
+            class="v-input align-center v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input__slider v-input--range-slider"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-slider v-slider--horizontal theme--light"
+                >
+                  <input
+                    id="input-190"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="5"
+                  />
+                  <input
+                    id="input-190"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="10000"
+                  />
+                  <div
+                    class="v-slider__track-container"
+                  >
+                    <div
+                      class="v-slider__track-background primary lighten-3"
+                    />
+                    <div
+                      class="v-slider__track-fill orange lighten-1"
+                      style="left: 0%; width: 100%;"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 0%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                  <div
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="10000"
+                    aria-valuemin="5"
+                    aria-valuenow="5,10000"
+                    class="v-slider__thumb-container orange--text text--lighten-1"
+                    role="slider"
+                    style="left: 100%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb orange lighten-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <p>
+            
+                    Price: $5 -
+                    $10,000
+                
+          </p>
+        </div>
+      </aside>
+       
+      <div>
+        <p>
+          
+                Showing all 16 results
+            
+        </p>
+         
+        <section
+          class="product-list"
+        >
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/7e3623a7-7bf8-4855-9819-f4d82af9e1c5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Desi Avramovitz
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.40
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/cc3adec3-7f10-4eef-afe2-80376cfe1357"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Radomir 1940
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/544ac97b-419a-472a-8edc-f42a55324da0"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Addy Alldre
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,300.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/885e1249-c45d-4c49-baa6-6434a291d4d2"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Gwendolen Bickerstaffe
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,400.50
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/6df0a393-2d01-4024-a46d-1d06b200458a"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cristian Gilbanks
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $3,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/3223686e-a223-472d-8dd1-6b944aadc222"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Kalila Gooms
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $1,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/70e337e6-811a-45b3-8515-ef4f5c21869f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Armin Basilio
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $2,000.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/9dcd7387-4162-4a2c-b2cd-67bd3a3e5a2f"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/421900ad-ecb7-4a0b-b80c-3ccc877a0dca"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Cal Sterman
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/ec97cff1-ac0a-487c-ab0d-ffb240fc9128"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Ardine Imlaw
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $6,500.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/6488a504-5825-4a46-b6d5-546254d56ce5"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Noella Ruddom
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $7,200.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/ce06bf75-3c50-4082-bb18-4a11f4b816fc"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Arden Stockbridge
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/57b1c56c-d1be-44b6-857d-4dec059d3fde"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Kirstyn Espadate
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $5,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list product-list-enter product-list-enter-active"
+            to="/products/daef0fa6-7fde-49f3-9788-a3fb2f328960"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              MENS WATCHES
+            </div>
+             
+            <div>
+              Rourke Greet
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $4,900.99
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/6be78686-6769-46d7-9abc-d5fe74960292"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Laminar Marina
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+          <a
+            class="product-in-list"
+            to="/products/f9c88546-8725-4038-bc06-fb9e27e9033b"
+          >
+            <div
+              class="v-responsive v-image"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+             
+            <div
+              class="product-in-list__gender"
+            >
+              WOMENS WATCHES
+            </div>
+             
+            <div>
+              Tag Heuer Carrera
+            </div>
+             
+            <div
+              class="product-in-list__product_action"
+            >
+              <div
+                class="price"
+              >
+                $10,000.00
+              </div>
+               
+              <button>
+                ADD TO CART
+              </button>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;

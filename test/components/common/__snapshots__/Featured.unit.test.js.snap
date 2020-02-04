@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Featured vuetify breakpoints are working 1`] = `
+<div>
+  <h2>
+    Featured Products 
+    <span />
+  </h2>
+   
+  <div
+    class="product-list"
+  />
+</div>
+`;

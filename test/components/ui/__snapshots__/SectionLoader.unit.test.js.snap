@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionLoader is fully functional 1`] = `
+<div
+  class="section-loader-wrapper"
+>
+  <div
+    class="loader"
+  />
+</div>
+`;

@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero is fully functional 1`] = `
+<div
+  class="v-window v-item-group theme--dark v-window--show-arrows-on-hover v-carousel v-carousel--hide-delimiter-background"
+  style="height: 700px;"
+>
+  <div
+    class="v-window__container"
+  >
+    <div
+      class="v-window-item container"
+    >
+      <div
+        class="v-responsive v-image v-carousel__item"
+        style="height: 700px;"
+      >
+        <div
+          class="v-responsive__content"
+        >
+          <div
+            class="v-responsive v-image"
+            style="max-height: 100%;"
+          >
+            <div
+              class="v-responsive__content"
+            >
+              <div
+                class="v-sheet theme--dark transparent"
+                style="height: 100%;"
+              >
+                <div
+                  class="row fill-height align-center justify-center"
+                >
+                  <div
+                    class="pa-7"
+                  >
+                    <div
+                      class="display-2 pb-4 text-center"
+                    >
+                      
+                            Title 1
+                        
+                    </div>
+                     
+                    <div
+                      class="grey--text text--lighten-1"
+                    >
+                      
+                            Description 1
+                            
+                      <b>
+                        This is a Demo Online Store. No orders
+                                shall be fulfilled.
+                      </b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-window-item container"
+      style="display: none;"
+    />
+    <div
+      class="v-window-item container"
+      style="display: none;"
+    />
+    <div
+      class="v-window__prev"
+    >
+      <button
+        aria-label="Previous visual"
+        class="v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--default"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate mdi mdi-chevron-left theme--dark"
+            style="font-size: 36px;"
+          />
+        </span>
+      </button>
+    </div>
+    <div
+      class="v-window__next"
+    >
+      <button
+        aria-label="Next visual"
+        class="v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--default"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate mdi mdi-chevron-right theme--dark"
+            style="font-size: 36px;"
+          />
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    class="v-carousel__controls"
+  >
+    <div
+      class="v-item-group theme--dark"
+    >
+      <button
+        aria-label="Carousel slide 1 of 3"
+        class="v-carousel__controls__item v-btn v-item--active v-btn--active v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"
+        type="button"
+        value="0"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate mdi mdi-circle theme--dark"
+            style="font-size: 18px;"
+          />
+        </span>
+      </button>
+      <button
+        aria-label="Carousel slide 2 of 3"
+        class="v-carousel__controls__item v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"
+        type="button"
+        value="1"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate mdi mdi-circle theme--dark"
+            style="font-size: 18px;"
+          />
+        </span>
+      </button>
+      <button
+        aria-label="Carousel slide 3 of 3"
+        class="v-carousel__controls__item v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"
+        type="button"
+        value="2"
+      >
+        <span
+          class="v-btn__content"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon notranslate mdi mdi-circle theme--dark"
+            style="font-size: 18px;"
+          />
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

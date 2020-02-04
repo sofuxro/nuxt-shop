@@ -1,4 +1,5 @@
 import { factoryMount } from '~/test/utils/factories'
+import flushPromises from 'flush-promises'
 
 import Component from '~/layouts/default'
 
@@ -12,6 +13,12 @@ beforeEach(() => {
                     cart: []
                 },
                 isMainOverlayVisible: false
+            },
+
+            mutations: {
+                modifyMainOverlay(state, isVisible = true) {
+                    state.isMainOverlayVisible = isVisible
+                }
             }
         }
     })
@@ -22,8 +29,13 @@ afterEach(() => {
 })
 
 describe('Layout', () => {
-    test('is fully functional', () => {
+    test('is fully functional', async () => {
         // Initial snapshot
+        expect(wrapper.element).toMatchSnapshot()
+
+        // Make everything blurred
+        wrapper.vm.$store.commit('modifyMainOverlay', true)
+        await flushPromises()
         expect(wrapper.element).toMatchSnapshot()
     })
 })

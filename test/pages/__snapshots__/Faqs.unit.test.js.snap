@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQs is fully functional 1`] = `
+<div
+  class="static-page"
+>
+  <header>
+    <div
+      class="container"
+    >
+      <h1>
+        FAQs
+      </h1>
+       
+      <div
+        class="description"
+      >
+        Frequently Asked Questions
+      </div>
+    </div>
+  </header>
+   
+  <div
+    class="content container"
+  >
+    <h3>
+      Online Purchases
+    </h3>
+     
+    <p>
+      
+        Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum.
+        Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus
+        dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est
+        dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium
+        enim nec vestibulum aliquam. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Curae
+    
+    </p>
+     
+    <div
+      class="v-item-group theme--light v-expansion-panels v-expansion-panels--accordion"
+    >
+      <div
+        aria-expanded="false"
+        class="v-expansion-panel"
+      >
+        <button
+          class="v-expansion-panel-header"
+          type="button"
+        >
+          What is your international returns policy?
+          <div
+            class="v-expansion-panel-header__icon"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-down theme--light"
+            />
+          </div>
+        </button>
+         
+        <div
+          class="v-expansion-panel-content"
+          style="display: none;"
+        />
+      </div>
+    </div>
+     
+    <h3>
+      Product Delivery
+    </h3>
+     
+    <p>
+      
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, minus
+        sunt nam voluptates placeat modi mollitia quis quisquam eum eos
+        nostrum doloribus iste, inventore similique architecto atque
+        nesciunt magnam maiores!
+    
+    </p>
+     
+    <div
+      class="v-item-group theme--light v-expansion-panels v-expansion-panels--accordion"
+    />
+  </div>
+</div>
+`;

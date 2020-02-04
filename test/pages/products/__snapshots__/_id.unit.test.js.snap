@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product page is fully functional 1`] = `
+<div
+  class="container watch-page"
+>
+  <div
+    class="item"
+  >
+    <div
+      class="v-responsive v-image item__image"
+    >
+      <div
+        class="v-responsive__content"
+      />
+    </div>
+     
+    <div
+      class="item__content"
+    >
+      <div
+        class="display-1"
+      >
+        Desi Avramovitz
+      </div>
+       
+      <div
+        class="price headline font-weight-thin py-4"
+      >
+        
+                $5,000.40
+            
+      </div>
+       
+      <div
+        class="font-weight-thin"
+      >
+        
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores voluptatibus illum maiores illo quod repellat
+                dolores, sapiente pariatur, assumenda vitae cum aperiam
+                excepturi ullam modi alias magnam animi hic quia blanditiis
+                id saepe, rem nobis. Fugiat corrupti quae obcaecati
+                inventore repudiandae facilis tenetur voluptate, quisquam ex
+                temporibus illo praesentium distinctio provident vel ducimus
+                eius libero veniam exercitationem. Vero impedit
+                necessitatibus magnam perferendis! Dolorum culpa explicabo
+                aliquam praesentium rem, ipsum repellat ea aspernatur
+                obcaecati consequuntur suscipit odio autem sed libero animi
+                tempora odit iusto ab, in assumenda totam vitae a,
+                blanditiis sapiente. Voluptatem voluptates enim commodi
+                soluta corporis iure labore ipsa.
+                
+        <br />
+         
+        <b>
+          This is a Demo Online Store. No orders shall be
+                    fulfilled.
+        </b>
+      </div>
+       
+      <button
+        class="mt-6 v-btn v-btn--depressed theme--light v-size--default orange lighten-1"
+        style="min-width: 240px;"
+        type="button"
+      >
+        <span
+          class="v-btn__content"
+        >
+          ADD TO CART
+        </span>
+      </button>
+    </div>
+  </div>
+   
+  <featured-stub />
+</div>
+`;

@@ -105,16 +105,22 @@ export default {
         },
 
         priceRange(newValue, oldValue) {
-            this.filter()
+            this.debounceFilter()
         },
 
-        '$route.query'() {
-            if (this.genderSelected.length < 2 || this.$route.query.gender) {
-                this.genderSelected = this.$route.query.gender
-                    ? [this.$route.query.gender]
-                    : []
-            }
-            this.filter()
+        '$route.query': {
+            handler() {
+                if (
+                    this.genderSelected.length < 2 ||
+                    this.$route.query.gender
+                ) {
+                    this.genderSelected = this.$route.query.gender
+                        ? [this.$route.query.gender]
+                        : []
+                }
+                this.filter()
+            },
+            immediate: true
         }
     },
 
@@ -126,13 +132,18 @@ export default {
 
     methods: {
         filter() {
-            flow(
-                curry(this.genderFilter)(this.genderSelected),
-                this.debouncedPriceFilter
+            this.watchesFiltered = flow(
+                this.genderFilter(this.genderSelected),
+                this.priceFilter(this.priceRange)
             )(this.watches)
         },
 
-        genderFilter(gendersSelected, arr) {
+        // Only for price slider
+        debounceFilter: debounce(300, function() {
+            this.filter()
+        }),
+
+        genderFilter: curry((gendersSelected, arr) => {
             if (gendersSelected.length) {
                 return arr.filter((el) =>
                     gendersSelected.includes(el.tags.gender)
@@ -140,16 +151,12 @@ export default {
             } else {
                 return arr
             }
-        },
+        }),
 
-        priceFilter(range, arr) {
+        priceFilter: curry((range, arr) => {
             return arr.filter(
                 (el) => range[0] <= el.price && el.price <= range[1]
             )
-        },
-
-        debouncedPriceFilter: debounce(300, function(arr) {
-            this.watchesFiltered = this.priceFilter(this.priceRange, arr)
         }),
 
         /* Because of transition-group position:absolute */
