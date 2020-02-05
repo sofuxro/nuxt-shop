@@ -2,7 +2,7 @@
 
 # Shop for Watches
 
-> My Vue, Nuxt and Netlify test ground
+> My Vue, Nuxt, Vuetify, Jest and Netlify test ground
 
 ## Live Demo
 
